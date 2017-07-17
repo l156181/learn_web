@@ -1,0 +1,87 @@
+.texto-meio p{
+    /*# font-family: "Arial", "Helvetica", sans-serif;*/
+    text-align: left;
+    text-indent: 20px;
+    padding: 0 45px;
+}
+body{
+    color: #333333;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    margin-left: auto;
+    margin-right:auto;
+    width: 940px
+}
+#text-titulo-principal{
+    background-image: url(caelum-arquivos-curso-web/mirrorfashion/img/sobre-background.jpg);
+    
+    padding: 10px;
+}
+h2{
+    border-bottom: 2px solid #333333;
+    /*tipos de borda = dashed, dotted, double, groove e outros.*/
+    margin-top: 30px;
+}
+
+figure{
+    background-color: #F2EDED;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 30px;
+}
+
+figcaption{
+    font-style: italic;
+    margin-top: 10px;
+}
+
+#centro-distribuicao{
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px
+}
+
+#familia-pelho{
+    float: right;
+    margin: 0 0 10px 10px;
+}
+
+#rodape {
+    color: #777;
+    margin: 30px 0;
+    padding: 10px 0;        
+}
+
+#rodape img{
+    margin-right: 30px;
+    vertical-align: middle;
+    width: 94px;    
+}
+
+.sacola {
+    background: url(caelum-arquivos-curso-web/mirrorfashion/img/sacola.png) no-repeat top right;
+    position: absolute;
+    font-size: 14px;
+    padding-right: 35px;
+    width: 140px;
+    padding-top: 8px;
+    top: 0;
+    right: 0;
+}
+
+header{
+    position: relative;
+}
+
+.menu-opcoes ul li{
+    display: inline;
+    margin-left: 20px;    
+}
+
+.menu-opcoes{
+    font-size: 15px;
+    position: absolute;
+    bottom: 60;
+    right: 0;
+
+}
